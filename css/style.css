@@ -1,0 +1,119 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-1{
+    background-image: url(../Images/1.jpg);
+    background-position: 50% 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Rob-1{
+    background-image: url(../Images/rob1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100px;
+    height: 500px;
+    border-radius: 50%;
+}
+.broad{
+    background-color: rgb(227, 231, 233);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.sec-img-1{
+    background-image: url(../Images/svg3.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+    height: fit-content;
+    padding: 15%;
+    width: fit-content;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: rgba(3, 80, 143, 0.541);
+}
+.sec-img-2{
+    background-image: url(../Images/svg4.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+    height: fit-content;
+    padding: 15%;
+    width: fit-content;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: rgba(3, 80, 143, 0.541);
+}
+.sec-img-3{
+    background-image: url(../Images/svg1.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+    height: fit-content;
+    padding: 15%;
+    width: fit-content;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background-color: rgba(3, 80, 143, 0.541);
+}
+.Rob-2{
+    background-image: url(../Images/rob-3.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100px;
+    height: 600px;
+    border-radius: 50%;
+}
+.Rob-3{
+    background-image: url(../Images/rob-4.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100px;
+    height: 600px;
+    border-radius: 50%;
+}
+.last-sec{
+    background-color:rgb(227, 231, 233);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+
+@media(width: 320px){
+    .col h1{
+        font-size: 2.5rem;
+    }
+    .col button{
+        font-size: 1rem;
+    }
+    .gap-2 button{
+        font-size: 1rem;
+    }
+}
+@media(max-width: 425px){
+    .col{
+        display: flex;
+        flex-direction: column;
+    }
+    .col h3{
+        font-size: 1.3rem;
+    }
+}
