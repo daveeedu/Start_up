@@ -112,7 +112,7 @@
     .col{
         display: flex;
         flex-direction: column;
-        padding-top: 80px;
+        padding-top: 100px;
     }
     
     .col h3{
